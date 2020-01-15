@@ -1,0 +1,70 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  margin: 0px !important;
+}
+
+.btnHoverActive:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 25px;
+  padding: 10px;
+  color: red;
+}
+
+button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  border: none;
+  outline: none;
+}
+
+.inputRecherche {
+  background-color: rgb(32, 35, 39);
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  border-radius: 25px;
+  color: rgba(217, 217, 217, 1);
+  padding: 10px;
+  outline: none;
+}
+
+.inputRecherche:active {
+  border-color: rgba(29, 161, 242, 1);
+}
+
+.inputRecherche:focus {
+  border-color: rgba(29, 161, 242, 1);
+}
+
+.inputQuoideneuf {
+  background-color: transparent !important;
+  color: rgba(217, 217, 217, 1) !important;
+  border: none !important;
+  padding: 10px !important;
+  outline: none !important;
+}
+
+.inputQuoideneuf:active {
+  color: rgba(29, 161, 242, 1) !important;
+}
+
+.inputQuoideneuf:focus {
+  color: rgba(29, 161, 242, 1) !important;
+}
+
+.MuiDivider-root {
+  background-color: rgb(47, 51, 54) !important;
+}
+
+.divHover:hover {
+  background-color: rgba(61, 65, 69, 0.1) !important;
+  cursor: pointer;
+}
